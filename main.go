@@ -12,7 +12,7 @@ import (
 const defaultCACertPath = "/var/run/secrets/kubernetes.io/serviceaccount/ca.crt"
 
 var (
-	port = flag.String("p", "8100", "port to serve on")
+	port = flag.String("p", "8080", "port to serve on")
 	file = flag.String("f", defaultCACertPath, "the static file to host")
 )
 
